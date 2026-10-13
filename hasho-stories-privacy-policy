@@ -1,28 +1,19 @@
 Hasho Stories Privacy Policy
 Updated: October 14, 2026
 
-This policy applies to the Hasho Stories / Hasho Storytelling mobile app published by Yusha (iOS bundle com.yusha.storytelling and Android package ai.hasho.storytelling). It describes this app rather than other Yusha apps or websites.
+This policy applies to Hasho Stories / Hasho Storytelling published by Yusha (iOS bundle com.yusha.storytelling and Android package ai.hasho.storytelling).
 
-Local story and learning data
-The app stores drawings, imported character images, built characters, saved adventures, language preferences, learning progress, friend personalization and conversation reports in its private storage on your device. These records support the stories, drawing activities, local personalization and progress reports. The app does not upload this content to an advertising network or a cloud AI service.
+No data collection or sharing
+This release does not collect or send personal information, account details, purchase records or app usage to Yusha or third-party services. It has no account registration, sign-in, cloud account connection, purchase or receipt verification, advertising SDK, analytics SDK, advertising identifier collection or cross-app tracking. It does not use Google Analytics or Firebase Analytics. It does not provide nearby-device data transfer or cloud AI processing.
 
-Microphone and image processing
-Microphone access is requested for reading practice and character conversations. The release app processes speech on-device, using available on-device speech recognition or bundled local models. Microphone audio is not uploaded or saved as a recording by the release app. Text recognition results may be included in local progress and conversation reports. Drawings, photo imports, character reconstruction and character joint detection are processed on-device. Camera or photo-library access, when used, serves the user-selected image import feature.
+Local stories and learning
+Drawings, imported character images, saved adventures, built characters, language preferences, friend personalization, local learning progress and conversation reports stay in the app's private storage on your device. These records let you continue activities and review local progress. Character joint detection, drawing recognition, reconstruction and conversation models run on-device.
 
-Advertising and tracking
-The app contains no advertising SDK, displays no third-party advertisements and does not collect an advertising identifier. It does not use Google Analytics, Firebase Analytics, advertising cookies or cross-app advertising tracking.
+Microphone and images
+Microphone permission supports reading practice and character conversations using on-device speech recognition and bundled local models. The release app does not upload microphone input or persist microphone audio recordings. Recognized text may appear in local learning and conversation reports. Camera and photo access, when used, support your requested image import; imported images are processed locally. No email address or account is needed for these activities. The app does not request contacts, location or advertising identifiers.
 
-Existing account and subscription services
-No sign-in is required to use the story and drawing activities. The app retains support for previously authenticated accounts and existing subscription records. Where such an account or purchase is present, our Supabase-hosted backend processes the account identifier, authentication/session information and, where applicable, store receipt or transaction information to maintain the account and verify paid access. Supabase acts as our hosting and database provider. The configured project is hosted in AWS region ap-northeast-1. These service communications also expose normal connection information, such as an IP address, to the hosting infrastructure. Apple or Google processes any store transaction under its own store terms. Story drawings, microphone recordings, local learning records and local conversation reports are not sent to this backend.
+Storage and deletion
+Saved adventures can be deleted through the app. Local records stay in private app storage until deleted or the app is removed. Any operating-system backup is controlled by your device's backup settings; Yusha does not operate an app-data backup server. App distribution and installation are handled by Apple or Google under their own store policies. There are no in-app purchases in this release.
 
-Analytics
-The corrected release does not send product-use analytics for either guest or verified-account sessions. Local learning progress is retained only to support the activities and progress reports on the device. The app has no third-party analytics SDK.
-
-Storage and choices
-You can delete saved adventures through the app's visible deletion flow. Local app data remains in the device's private app storage until deleted or the app is removed; any operating-system backup is controlled by your device's backup settings. Existing server-side account or transaction records are separate from local story files. To request access to or deletion of those records, contact us at yusha@yusha.ai. We may retain records required to maintain an account, verify a purchase or meet applicable recordkeeping obligations.
-
-Children's use
-The story activities work without entering an email address or creating an account. The app does not request contact lists, precise location, advertising identifiers or information for advertising. Parents or guardians can contact us about a child's local or existing account data using the address below.
-
-Contact
-Yusha: yusha@yusha.ai
+Children and contact
+The app's activities use local device data only. A parent or guardian can contact Yusha at yusha@yusha.ai with privacy questions. Sending an email is optional and separate from the app; we use a received email only to answer the request.
