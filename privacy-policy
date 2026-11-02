@@ -1,6 +1,8 @@
 HASHO CANVAS FOR ANDROID — SUBSCRIPTION VERIFICATION
 Updated November 3, 2026
 
+Account deletion requests: https://github.com/shamealoneil/yusha-privacy/blob/main/hasho-canvas-account-deletion
+
 When you subscribe to Hasho Canvas through Google Play, Google processes the payment under its own terms and privacy policy. Hasho Canvas does not receive your payment card number or security code from Google Play.
 
 To verify and provide your subscription, Hasho Canvas sends the Google Play purchase token, an app installation identifier, and subscription details to Yusha's subscription verification service hosted by Supabase. The service checks the purchase with Google Play and stores a hashed purchase reference and installation identifier, the subscription product, status, and expiry. This information is used to verify and manage access to paid features. If you choose to link your purchase to the desktop launcher, you provide an email address to Supabase for account verification and creation, and the account identifier may be stored with the verified purchase. Supabase processes this information on Yusha's behalf. Questions and requests about this information may be sent to yusha@yusha.ai.
